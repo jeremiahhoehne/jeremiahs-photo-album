@@ -1,0 +1,6 @@
+.header-image{
+    height:0;
+    padding-bottom: 35%;
+    background: url("/assets/europe-trains.jpg") no-repeat;
+    background-size: 100%;
+}

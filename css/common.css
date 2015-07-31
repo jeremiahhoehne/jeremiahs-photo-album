@@ -1,0 +1,47 @@
+body {  
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fefefe;
+}
+
+.header{
+    background-color: black;
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 70px;
+    color: white;
+}
+
+h2{
+    font-size: 70px;
+    position: relative;
+    color: white;
+    opacity: 60%;
+}
+
+div.header h2:before,  
+div.header h2:after {  
+    content: "";
+    position: absolute;
+    height: 43px;
+    border-bottom: 5px solid rgba(255, 255, 255, .6);
+    top: 0;
+    width: 35%;
+}
+
+div.header h2:before {  
+    right: 5%;
+    margin-right: 55px;
+}
+
+div.header h2:after {  
+    left: 5%;
+    margin-left: 55px;
+}
+
+.text-center{
+    text-align: center;
+}
